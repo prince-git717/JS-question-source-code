@@ -97,20 +97,60 @@
 // console.log(arr);
 // console.log(result)
 // Final Interview Question 🔥
-const arr1 =[1,2,3];
-const arr2 =arr1.reverse();
+// const arr1 =[1,2,3];
+// const arr2 =arr1.reverse();
 // console.log(arr1);
-const arr3=arr1.concat([4]);
+// const arr3=arr1.concat([4]);
 // console.log(arr3)
-arr2.push(5); 
-console.log(arr1)
+// arr2.push(5); 
+// console.log(arr1)
 // so it should add the 5 in the last i guess 
 // okay guys that's it for toudy ,, if possibel i will come live at night and try to solve and clear concept with you .. stay tuned if yu want these question to practice then you can simply visit my github account i will attach the link in the discription and that's it thank you all 
 
+// slice() array ka ek portion copy karke new array return karta ha
+// ✅ Original array ko change nahi karta.
 
+// const arr = [1, 2, 3, 4, 5];
+// const arr2 =arr.slice(1,4);
+// console.log(arr);
+// console.log(arr2);
+// const arr = [1,2,3,4,5];
+// const result =arr.splice(1,2)
+// console.log(arr);
+// console.log(result);
 
+// const arr = [10, 20, 30, 40, 50];
+// arr.splice(1,3);
+// console.log(arr);
+// const arr = [10,20,30,40];
+// const result =arr.splice(1,2);
+// console.log(result)
+// const arr = [10, 20, 30];
+// arr.splice(1,0,100)
+// console.log(arr)
 
+// const arr = [10, 20, 30, 40];
+// arr.splice(1, 2, 100, 200);
+// console.log(arr);
+// const arr = [1, 2, 3, 4];
+// arr.splice(2, 0, 100);
+// console.log(arr);
+// const arr = [1, 2, 3, 4, 5];
+// const result =arr.splice(2,2,100);
+// console.log(arr)
+// console.log(result);
 
+// splice() Short Notes 🚀
 
+// Definition:
+
+// splice() is used to add, remove, or replace elements in an array. It modifies the original array.
+
+// Syntax
+// arr.splice(start, deleteCount, item1, item2, ...)
+// Parameters
+// start → Index where operation starts.
+// deleteCount → Number of elements to remove.
+// item1, item2... → Elements to insert.
 
 
