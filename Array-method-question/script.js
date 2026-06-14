@@ -152,5 +152,3 @@
 // start → Index where operation starts.
 // deleteCount → Number of elements to remove.
 // item1, item2... → Elements to insert.
-
-
